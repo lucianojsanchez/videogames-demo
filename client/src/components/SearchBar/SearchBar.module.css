@@ -1,0 +1,35 @@
+.search_bar{
+    display: flex;
+    margin-right: 5em;
+    align-items: center;
+    justify-content: center;
+   width: auto;
+   height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search_bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+}
+
+.search_bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);;
+}
+
+.search_bar button img{
+    width: 18px;
+}
+
+
+
+.search_bar input::placeholder{
+    color: rgba(255, 255, 255, 0.534);
+}

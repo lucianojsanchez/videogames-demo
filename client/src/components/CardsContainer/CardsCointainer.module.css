@@ -1,0 +1,25 @@
+.background{
+    background: rgb(119,130,147);
+    background: linear-gradient(180deg, rgba(119,130,147,1) 24%, rgba(249,109,0,1) 74%, rgba(245,227,219,1) 100%);
+}
+
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    
+}
+
+
+.pagination {
+	display: inline-block;
+	height: auto;
+	margin-top: 70px;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    size: 0.4in;
+}

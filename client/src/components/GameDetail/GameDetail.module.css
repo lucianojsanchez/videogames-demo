@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: rgb(119,130,147);
+    background: linear-gradient(180deg, rgba(119,130,147,1) 24%, rgba(249,109,0,1) 74%, rgba(245,227,219,1) 100%);
+}
+
+p{
+    font-size: 13px;
+    margin: 2em;
+    color: rgb(249,109,0);
+}
+
+h5{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.card{
+    background-color: #222831;
+    border-radius: 10px;
+    width: 400px;
+    overflow: hidden;
+    padding: 1em;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.image{
+    border-radius: 10px;
+    border: rgb(85, 85, 85) 3px solid ;
+    width: 300px;
+    height: 210px;
+    background-color: transparent;
+    margin: auto;
+}    
+
+.image:hover {
+    border: rgb(217, 212, 200) 3px solid;
+}
+
+.game {
+    text-align: center;
+    list-style: none;
+}
+
+.game:hover {
+    opacity: 0.8;
+}
+
+.name {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    font-size: 25px;
+}
+
+.genre {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.genre {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    margin-top: 0rem;
+}
+
+.rating {
+    text-align: center;
+    color: rgb(7, 202, 7);
+}
+
+.rating {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    margin-top: 0rem;
+}

@@ -1,0 +1,11 @@
+.background{
+display: flex;
+justify-content: center;
+background-color: rgba(119,130,147,1);
+padding-top: 2em;
+padding-bottom: 2em;
+  }
+
+  .searchBar{
+    margin-right: 1em;
+  }

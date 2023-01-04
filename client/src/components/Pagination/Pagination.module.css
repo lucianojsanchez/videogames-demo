@@ -1,0 +1,28 @@
+.pagination_container{
+    gap: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1em;
+    margin-left: 10em;
+    background-color: #222831;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    width: fit-content;
+}
+
+.pagination_container a{
+    gap: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+}    
+
+.pagination_container a:hover {
+  
+    color: rgb(246, 153, 66);
+}

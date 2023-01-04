@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    cursor: pointer;
+  }
+
+
+.card{
+    background-color: #222831;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    size: 0.4in;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card_image{
+    border-radius: 10px;
+    border: rgb(242, 153, 84) 2px solid ;
+    width: 270px;
+    height:210px;
+    background-color: transparent;
+    text-decoration: none;
+}    
+
+.card_image:hover {
+    border: rgb(233, 227, 213) 3px solid;
+}
+
+.card_game {
+    text-align: center;
+    list-style: none;
+}
+
+.card_game:hover {
+    opacity: 2.0;
+
+}
+
+.title_name {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    font-size: 20px;
+}
+
+
+.title_genre {
+    text-align: center;
+    color: rgb(7, 202, 7);
+}
+.genre {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    margin-top: 0rem;
+}
+
+.title_rating {
+    text-align: center;
+    color: rgb(7, 202, 7);
+    
+}
+
+.rating {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    margin-top: 0rem;
+}

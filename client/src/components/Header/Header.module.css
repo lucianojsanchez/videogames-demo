@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+  
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222831;
+}
+
+.img{
+    padding-left: 1em;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding-right: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.container_landing{
+    display: flex;
+    width: 59,5em;
+    height: 50em;
+    background-image: url("../../img/wallpaper22.jpg");
+    background-size: cover;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+  }
+  
+.content .info h2{
+    color: #f96d00;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+.content .info h2 span{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #f96d00;
+    text-shadow: rgb(142, 142, 142) 1px 0 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+.content .info_btn{
+    color: #fff;
+    background: #f96d00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .content .info_btn:hover{
+    background: #0C4F60;
+  }

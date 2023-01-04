@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.container{
+    background: rgb(119,130,147);
+    background: linear-gradient(180deg, rgba(119,130,147,1) 24%, rgba(249,109,0,1) 74%, rgba(245,227,219,1) 100%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.videogame{
+    text-shadow: rgb(159, 159, 159) 1px 0 10px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.error {
+    margin-top: 1em;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.input {
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+
+
+.released_input {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+
+.rating_input {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.genres_container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.genres_input {
+    width: 17rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.platforms_container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.platforms_input {
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.create {
+    margin-top: 2rem;
+    margin-bottom: 2em;
+    border-radius: 0.5rem;
+    border: 2px solid;
+    border-color: rgb(84, 84, 84);
+    background-color: rgb(245, 223, 113);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create:hover {
+    background-color: rgb(243, 143, 35);
+    color: rgb(90, 90, 90);
+    border-color: rgb(255, 255, 255);
+}
+
+.create:disabled {
+    pointer-events: none;
+    cursor: none;
+    background: lightgray;
+}
+
+.platform_genre{
+    background-color: aliceblue;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.x_genre_container {
+    text-align: right;
+    margin-right: 20em;
+}
+
+.x_platform_container{
+    text-align:left;
+    margin-left: 20em;
+}
+
+.platform_button{
+    background: transparent;
+    border: 0;
+}
+.genre_button{
+    background: transparent;
+    border: 0;
+}
+
+.delete{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    margin-left: 0.1em;
+}
